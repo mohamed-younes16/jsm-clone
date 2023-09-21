@@ -18,11 +18,11 @@ const ResourceCard = ({ key,title,views ,dowloadlink ,slug ,image }) => {
             <Image src={image} height={530} width={384} className=" overflow-hidden rounded-2xl" alt="resource image" />
         
 
-<CardTitle className="text-xl font-semibold text-white overflow-ellipsis line-clamp-1
+<p className="text-xl font-semibold text-white overflow-ellipsis line-clamp-1
   w-full text-left mt-6 ">
     {title}
 
-</CardTitle>
+</p>
         <CardContent>
 
                 
